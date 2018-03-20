@@ -1,0 +1,6 @@
+/Pods
+/Podfile.lock
+/build
+/.gradle
+/platform/android/*.jar
+/platform/android/*.aar
