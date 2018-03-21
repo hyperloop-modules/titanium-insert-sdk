@@ -16,16 +16,16 @@ of the SDK. See the [official](https://www.insert.io) documentation for details.
 ```xml
 <key>CFBundleURLTypes</key>
 <array>
-		<dict>
-				<key>CFBundleTypeRole</key>
-				<string>Editor</string>
-				<key>CFBundleURLName</key>
-				<string>com.appc.sample.insert</string>
-				<key>CFBundleURLSchemes</key>
-				<array>
-						<string>insert-xxxxxxxx</string>
-				</array>
-		</dict>
+	<dict>
+ 		<key>CFBundleTypeRole</key>
+		<string>Editor</string>
+		<key>CFBundleURLName</key>
+		<string>com.appc.sample.insert</string>
+		<key>CFBundleURLSchemes</key>
+		<array>
+			<string>insert-xxxxxxxx</string>
+		</array>
+	</dict>
 </array>
 ```
 4. Import the Hyperlop module (ES6+)
@@ -41,7 +41,7 @@ Simply initialize the SDK and things like URL-schemes will be handled for you us
 TiInsert.initialize({
   apiKey: '<your-api-key',
   companyName: '<your-company-name>', // optional
-	initParams: {} // optional
+  initParams: {} // optional
 });
 ```
 
